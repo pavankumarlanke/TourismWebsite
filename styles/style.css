@@ -10,6 +10,8 @@
 }
 
 .card {
-  background-color: lightblue;
+  background-image: url("https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg?w=1380&t=st=1705644183~exp=1705644783~hmac=0d395e3911c3b749d7647e90b4be1bdef126f68bffc8bf2efe8df60e2390cdd7");
+  background-size: cover;
+  height: 100vh;
   text-align: center;
 }
