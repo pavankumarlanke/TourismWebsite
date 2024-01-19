@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
+.bg-container {
+  background-image: url("https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg?w=1380&t=st=1705644183~exp=1705644783~hmac=0d395e3911c3b749d7647e90b4be1bdef126f68bffc8bf2efe8df60e2390cdd7");
+  background-size: cover;
+  height: 100vh;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 6px;
+}
+
 .main-heading {
   color: blue;
   font-family: "Lobster";
@@ -9,9 +23,11 @@
   color: grey;
 }
 
-.card {
-  background-image: url("https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg?w=1380&t=st=1705644183~exp=1705644783~hmac=0d395e3911c3b749d7647e90b4be1bdef126f68bffc8bf2efe8df60e2390cdd7");
-  background-size: cover;
-  height: 100vh;
-  text-align: center;
+.button {
+  height: 35px;
+  width: 135px;
+  color: white;
+  background-color: aquamarine;
+  border-radius: 25px;
+  border-width: 0px;
 }
